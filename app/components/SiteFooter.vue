@@ -36,7 +36,7 @@
         <n-text
           v-if="siteIcp"
           depth="3"
-          @click="jumpLink('https://icp.gov.moe/')"
+          @click="jumpLink('https://icp.gov.moe/?keyword=20244038')"
         >
           | {{ siteIcp }}
         </n-text>
@@ -51,8 +51,8 @@ const { siteIcp, version } = configPublic;
 
 const linkData = {
   github: "https://github.com/imsyy/site-status",
-  home: "https://www.imsyy.top",
-  email: "mailto:one@imsyy.top",
+  home: "https://www.hanze.icu",
+  email: "mailto:mail@hanze.icu",
 };
 </script>
 
