@@ -89,6 +89,8 @@ const navMenu = computed<DropdownOption[]>(() => [
     key: "about",
     label: t("nav.about"),
     icon: renderIcon("icon:info"),
+    props: {
+      onClick: () => window.open("https://notice.hanze.icu"),
   },
   {
     key: "logout",
